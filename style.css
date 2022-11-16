@@ -10,10 +10,12 @@ Text Domain:  ttwentytwentythreechild
 */
 
 body {
-    background-color: aqua;
+    background-color: red;
 }
 header {
     background-color: pink;
     color: pink;
+
+    height: 1rem;
 }
  
