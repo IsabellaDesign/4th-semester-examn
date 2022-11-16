@@ -1,0 +1,19 @@
+/*
+Theme Name:   Twentytwentythreechild
+Theme URI:    http://www.isabellatornerdesign.com/
+Description:  Twentytwentythreechildtheme
+Author:       Isabella Torner
+Author URI:   http://www.isabellatornerdesign.com/
+Template:     twentytwentythree
+Version:      1.0
+Text Domain:  ttwentytwentythreechild
+*/
+
+body {
+    background-color: aqua;
+}
+header {
+    background-color: pink;
+    color: pink;
+}
+ 
