@@ -13,4 +13,9 @@ function my_theme_enqueue_styles() {
 		array( $parenthandle ),
 		$theme->get( 'Version' ) // This only works if you have Version defined in the style header.
 	);
+	
+
 }
+
+
+

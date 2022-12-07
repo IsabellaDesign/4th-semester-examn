@@ -5,17 +5,107 @@ Description:  Twentytwentythreechildtheme
 Author:       Isabella Torner
 Author URI:   http://www.isabellatornerdesign.com/
 Template:     twentytwentythree
-Version:      1.0
+Version:      1.1
 Text Domain:  ttwentytwentythreechild
 */
 
 body {
-    background-color: red;
+    background-color: white;
 }
-header {
-    background-color: pink;
-    color: pink;
 
-    height: 1rem;
-}
+  
+h1.wp-block-post-title { display:none; }
  
+header {
+    background-color: #5AADB8;
+}
+
+
+.wp-block-navigation-item__label {
+    color: white;
+    text-decoration-color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+a.wp-block-navigation-item__content {
+    color: white;
+    text-decoration-color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+li.has-medium-font-size .wp-block-navigation-item .has-child .open-on-hover-click .current-menu-item .wp-block-navigation-submenu {
+  background-color: black;
+    font-family: Helvetica, sans-serif;
+}
+
+
+
+.wp-site-blocks  {
+    margin: 0;
+    padding: 0;
+   }
+
+/* Button */
+
+.glow-on-hover .elementor-button-link {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #5AADB8;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover .elementor-button-link:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover .elementor-button-link:active {
+    color: #5AADB8
+}
+
+.glow-on-hover .elementor-button-link:active:after {
+    background: transparent;
+}
+
+.glow-on-hover .elementor-button-link:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover .elementor-button-link:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #5AADB8;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+
+
