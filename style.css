@@ -22,22 +22,18 @@ header {
 
 
 .wp-block-navigation-item__label {
-    color: white;
-    text-decoration-color: white;
+    color: black;
+    text-decoration-color: black;
     font-family: Helvetica, sans-serif;
+    font-size: 25px;
 }
 
 a.wp-block-navigation-item__content {
-    color: white;
-    text-decoration-color: white;
+    color: black;
+    text-decoration-color: black;
     font-family: Helvetica, sans-serif;
+    font-size: 25px;
 }
-
-li.has-medium-font-size .wp-block-navigation-item .has-child .open-on-hover-click .current-menu-item .wp-block-navigation-submenu {
-  background-color: black;
-    font-family: Helvetica, sans-serif;
-}
-
 
 
 .wp-site-blocks  {
